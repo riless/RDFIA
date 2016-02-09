@@ -1,0 +1,16 @@
+function [centres,erreur] = solutionKMeans(points,M)
+    
+   [N,d] = size(points); 
+   % M : nombre de clusters voulues
+   % centres: les coordonnée du centre ( le sift du centre )
+   % erreur: erreur de quantification obtenu
+   
+   %% Initialisation des centres
+   K = M;
+   centres = randomSeed(points,K);
+   
+   %% tant que les centres ne s
+   
+  
+
+end
